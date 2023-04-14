@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "data_dashboard_youtube"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 streamlit = "^1.21.0"
 numpy = "^1.24.2"
 
