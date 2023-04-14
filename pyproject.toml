@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "data-dashboard-youtube"
+version = "0.1.0"
+description = ""
+authors = ["scaumedes <marat.usmanov.07@gmail.com>"]
+readme = "README.md"
+packages = [{include = "data_dashboard_youtube"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.21.0"
+numpy = "^1.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
